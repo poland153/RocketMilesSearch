@@ -1,0 +1,49 @@
+TODO
+
+destination{
+	should display pin icon with placeholder text ----
+	should display dropdown with current location and top locations after click ----
+	should display text after its inputed ----
+	should display dropdown with locations that match inputed text ----
+	should display No Offers Available when junk text is inputed ----
+	should fill input with selection from top destinations
+	should fill input with selection from autocomplete
+}
+reward program{
+	Should display airplane icon and placeholder text
+	should display airplane icon orange and border orange and dropdown list after clicked
+	shoudl display all options in dropdown list
+	should display correct selection when clicking item from list
+	should display item in list as active(with background orange) after being selected
+}
+check-in{
+	should display calendar icon with correct placeholder text
+	should display dropdown when input box is clicked
+	should display current month and year and default select todays date
+}
+checkout{
+	should display calendar icon with correct placeholder text
+	should display dropdown when input box is clicked
+	should display current month and year and default select todays date
+	should display highlighted dates after selecting dates ****
+	should not be able to click on yesterday date
+}
+# of adults{
+	should display person icon and default of 2 Guests
+	should display dropdown after click and amount of guest options
+	should display selected option after selecting from dropdown
+	should highlight selection in dropdown after being selected
+}
+# of rooms{
+	should display default of 1 Room
+	should display dropdown after click and room options
+	should display selected option after selecting from dropdown
+	should highlight selectin in dropdown after being selected
+}
+submit button{
+	should display correct text with color, background color, text font
+	should show unkown location message if location empty and submit clicked
+ 	should display required message and display reward program dropdown if rewards empty and submit clicked
+ 	should display check-in dropdown if no check-in selected and submit clicked
+ 	should display list of hotels and map if check-in is selected and checkout is not selected(will default checkout to next day)
+}
